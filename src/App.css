@@ -1,0 +1,44 @@
+.app-container {
+    height: 100vh;
+    display: flex; 
+}
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.check-answers-btn {
+    margin: 0 auto;
+    /* border: 0; */
+    border-radius: 10px;
+    font-size: 1rem;
+    padding: .75em 1.5em;
+    cursor: pointer;
+    background-color: #4D5B9E;
+    color: white;
+
+
+}
+.score-reset-btn-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    align-self: center;
+}
+
+.user-score {
+    font-size: 2rem;
+    color: #293264;
+}
+
+.reset-btn {
+    margin: 1em auto;
+    background-color: #4D5B9E;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    padding: .75em 1.5em;
+    cursor: pointer;
+}
